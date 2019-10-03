@@ -1,0 +1,24 @@
+@import url("__image/lead__image.css");
+@import url("__caption/lead__caption.css");
+
+.lead__wrapper{
+    margin: 0 auto;
+}
+
+@media screen and (min-width: 768px){
+    .lead__wrapper{
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 1024px){
+    .lead__wrapper{
+        width: 928px;
+    }
+}
+
+@media screen and (min-width: 1280px){
+    .lead__wrapper{
+        width: 984px;
+    }
+}

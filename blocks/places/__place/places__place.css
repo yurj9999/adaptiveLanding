@@ -1,0 +1,19 @@
+@import url("../__place/__title-img/wrapper__title-img.css");
+@import url("../__place/__url-paragraph/wrapper__url-paragraph.css");
+
+@media screen and (min-width: 320px){
+    .places__place{
+        margin-bottom: 48px;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .places__place{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 72px;
+    }
+    .places__place:last-of-type{
+        margin-bottom: 0;
+    }
+}

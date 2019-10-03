@@ -1,0 +1,54 @@
+@import url("__duration/item__duration.css");
+@import url("__icon-play/item__icon-play.css");
+@import url("__subtitle/item__subtitle.css");
+@import url("__title/item__title.css");
+
+.item__wrapper a{
+    width: 41px;
+}
+
+.item__wrapper{
+    border-radius: 5px;
+    background-color: rgba(0,0,0,.3);
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+@media screen and (min-width: 320px){
+    .item__wrapper{
+        width: 288px;
+        height: 192px;
+        padding: 16px;
+    }
+}
+
+@media screen and (min-width: 375px){
+    .item__wrapper{
+        width: 343px;
+        height: 200px;
+        padding: 24px;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .item__wrapper{
+        width: 352px;
+    }
+}
+
+@media screen and (min-width: 1024px){
+    .item__wrapper{
+        width: 456px;
+        height: 288px;
+        padding: 30px;
+    }
+}
+
+@media screen and (min-width: 1280px){
+    .item__wrapper{
+        width: 583px;
+        height: 323px;
+    }
+}

@@ -1,0 +1,39 @@
+@import url("__item/container__item.css");
+
+@media screen and (min-width: 320px){
+    .video__container{
+        width: 288px;
+    }
+    .video__container .container__item:first-of-type{
+        margin-bottom: 8px;
+    }
+}
+
+@media screen and (min-width: 375px){
+    .video__container{
+        width: 343px;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .video__container{
+        width: 720px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .video__container .container__item:first-of-type{
+        margin: 0;
+    }
+}
+
+@media screen and (min-width: 1024px){
+    .video__container{
+        width: 928px;
+    }
+}
+
+@media screen and (min-width: 1280px){
+    .video__container{
+        width: 1184px;
+    }
+}

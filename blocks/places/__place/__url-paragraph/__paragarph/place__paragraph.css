@@ -1,0 +1,38 @@
+.place__paragraph{
+    font-family: Inter;
+    color: #FFFFFF;
+}
+
+@media screen and (min-width: 320px){
+    .place__paragraph{
+        padding: 0 16px;
+        font-size: 16px;
+        line-height: 27px;
+        margin-bottom: 24px;
+    }
+    .place__paragraph:last-of-type{
+        margin-bottom: 0;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .place__paragraph{
+        padding: 0;
+        width: 352px;
+    }
+}
+
+@media screen and (min-width: 1024px){
+    .place__paragraph{
+        font-size: 18px;
+        line-height: 30px;
+        width: 456px;
+    }
+}
+
+@media screen and (min-width: 1280px){
+    .place__paragraph{
+        margin-bottom: 36px;
+        width: 484px;
+    }
+}

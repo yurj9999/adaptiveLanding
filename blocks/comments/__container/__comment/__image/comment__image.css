@@ -1,0 +1,16 @@
+.comment__image{
+    border-radius: 50%;
+}
+
+@media screen and (min-width: 320px){
+    .comment__image{
+        margin: 0 auto 5px auto;
+    }
+}
+
+@media screen and (min-width: 1024px){
+    .comment__image{
+        margin-bottom: 42px;
+        margin-left: 0;
+    }
+}
