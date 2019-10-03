@@ -1,6 +1,6 @@
-@import url("../lead/__title/lead__title.css");
-@import url("../lead/__subtitle/lead__subtitle.css");
-@import url("../lead/__wrapper/lead__wrapper.css");
+@import url("./__subtitle/lead__subtitle.css");
+@import url("./__title/lead__title.css");
+@import url("./__wrapper/lead__wrapper.css");
 
 .lead{
     width: 100%;

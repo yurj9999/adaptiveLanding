@@ -1,7 +1,7 @@
-@import url("__duration/item__duration.css");
-@import url("__icon-play/item__icon-play.css");
-@import url("__subtitle/item__subtitle.css");
-@import url("__title/item__title.css");
+@import url("./__duration/item__duration.css");
+@import url("./__icon-play/item__icon-play.css");
+@import url("./__subtitle/item__subtitle.css");
+@import url("./__title/item__title.css");
 
 .item__wrapper a{
     width: 41px;

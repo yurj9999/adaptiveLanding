@@ -1,5 +1,5 @@
-@import url("../__place/__title-img/wrapper__title-img.css");
-@import url("../__place/__url-paragraph/wrapper__url-paragraph.css");
+@import url("./__title-img/wrapper__title-img.css");
+@import url("./__url-paragraph/wrapper__url-paragraph.css");
 
 @media screen and (min-width: 320px){
     .places__place{

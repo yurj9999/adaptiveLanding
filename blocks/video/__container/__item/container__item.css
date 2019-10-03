@@ -1,5 +1,5 @@
-@import url("__image/item__image.css");
-@import url("__wrapper/item__wrapper.css");
+@import url("./__image/item__image.css");
+@import url("./__wrapper/item__wrapper.css");
 
 .container__item:hover .item__image{
     opacity: 1;

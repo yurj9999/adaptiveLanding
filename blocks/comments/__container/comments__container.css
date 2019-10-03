@@ -1,4 +1,6 @@
-@import url("../__container/__comment/container__comment.css");
+@import url("./__comment/container__comment.css");
+
+/*@import url("../__container/__comment/container__comment.css");*/
 
 @media screen and (min-width: 1024px){
     .comments__container{
