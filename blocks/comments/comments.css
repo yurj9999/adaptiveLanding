@@ -1,4 +1,6 @@
-@import url("../comments/__container/comments__container.css");
+/*@import url("../comments/__container/comments__container.css");*/
+
+@import url("./__container/comments__container.css");
 @import url("../comments/__contenet-subtitle/comments__content-subtitle.css");
 @import url("../comments/__content-title/comments__content-title.css");
 
