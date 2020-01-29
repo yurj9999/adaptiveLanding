@@ -1,1 +1,1 @@
-# adaptiveLanding
+Адаптивный лендинг
